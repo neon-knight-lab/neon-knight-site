@@ -293,3 +293,28 @@ body {
         letter-spacing: 1.2px;
     }
 }
+.btn-primary {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 12px 22px;
+    border-radius: 999px;
+
+    background: linear-gradient(90deg, #00f5d4, #d946ef);
+    color: #050816;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+
+    box-shadow:
+        0 0 12px rgba(0, 245, 212, 0.4),
+        0 0 18px rgba(217, 70, 239, 0.3);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 18px rgba(0, 245, 212, 0.6),
+        0 0 28px rgba(217, 70, 239, 0.5);
+}
