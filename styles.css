@@ -59,6 +59,15 @@ body {
     position: relative;
 }
 
+.logo span {
+    color: #d946ef;
+    margin-left: 6px;
+
+    text-shadow:
+        0 0 6px rgba(217, 70, 239, 0.6),
+        0 0 12px rgba(217, 70, 239, 0.4);
+}
+
 .site-nav {
     display: flex;
     gap: 24px;
